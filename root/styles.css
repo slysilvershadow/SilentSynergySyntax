@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #1a1a1a; /* Very dark gray, almost black for a moody background */
+    margin: 0;
+    padding: 0;
+    color: #d0d0d0; /* Soft, cool gray for text to contrast with dark background */
+}
+
+/* Header */
+header {
+    background-color: #0d0d0d; /* Deep black for the header */
+    color: #9b4d96; /* Deep purple for elegance and a gothic touch */
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 2px solid #6a3e8f; /* Dark, muted purple border for contrast */
+}
+
+header h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f3f3f3; /* Off-white for the title to make it pop */
+}
+
+header p {
+    font-size: 1.4em;
+    font-weight: lighter;
+    margin-top: 20px;
+    color: #cbb3e3; /* Soft lavender to add a subtle gothic charm */
+}
+
+/* Button */
+button {
+    background-color: #9b4d96; /* Deep purple for the button */
+    color: #f3f3f3; /* Light, elegant text for contrast */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow for a gothic feel */
+}
+
+button:hover {
+    background-color: #6a3e8f; /* Darker purple for hover effect */
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); /* Intensified shadow on hover */
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #2b2b2b; /* Darker gray background for contrast */
+}
+
+#about h2 {
+    font-size: 2.5em;
+    color: #9b4d96; /* Deep purple heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #d0d0d0; /* Light gray text for readability */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: #0d0d0d; /* Deep black footer for dramatic effect */
+    color: #f3f3f3; /* Light gray for footer text */
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 1em;
+    border-top: 2px solid #6a3e8f; /* Dark purple border at the top for the footer */
+}
+
+footer p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
